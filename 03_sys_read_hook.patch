@@ -1,5 +1,4 @@
 diff --git a/fs/read_write.c b/fs/read_write.c
-index 650fc7e0f3a6..55be193913b6 100644
 --- a/fs/read_write.c
 +++ b/fs/read_write.c
 @@ -586,8 +586,18 @@ ssize_t ksys_read(unsigned int fd, char __user *buf, size_t count)
