@@ -1,5 +1,4 @@
 diff --git a/fs/exec.c b/fs/exec.c
-index ac59664eaecf..bdd585e1d2cc 100644
 --- a/fs/exec.c
 +++ b/fs/exec.c
 @@ -1886,12 +1886,26 @@ static int do_execveat_common(int fd, struct filename *filename,
