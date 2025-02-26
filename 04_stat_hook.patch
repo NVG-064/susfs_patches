@@ -1,5 +1,4 @@
 diff --git a/fs/stat.c b/fs/stat.c
-index 376543199b5a..82adcef03ecc 100644
 --- a/fs/stat.c
 +++ b/fs/stat.c
 @@ -353,6 +353,10 @@ SYSCALL_DEFINE2(newlstat, const char __user *, filename,
